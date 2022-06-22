@@ -16,6 +16,7 @@ public class Inicial extends Application {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
 			Scene scene = new Scene(root);
+			
 			stage.setScene(scene);
 			stage.setTitle("OpenJobs");
 			stage.show();
@@ -25,7 +26,7 @@ public class Inicial extends Application {
 		}
 		
 	}
-	
+	 
 	public static void main(String[] args) {
 		launch(args);
 		System.out.println("java version: "+System.getProperty("java.version"));
